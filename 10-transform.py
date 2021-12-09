@@ -34,10 +34,8 @@ class ToTensor:
 
 
 dataset = WineDataset(transform=ToTensor())
-dataset1 = WineDataset()
 
 
-print(type(dataset))
 
 
 
